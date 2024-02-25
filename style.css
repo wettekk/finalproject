@@ -1,0 +1,264 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: monospace;
+
+}
+.pageContent{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 1180px;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    padding: 0 42px;
+    height: 100px;
+    border-radius: 0px 0px 40px 40px;
+    background: rgb(0, 194, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 0px;
+}
+
+nav{
+    display: flex;
+    gap:40px;
+}
+
+.menuItem{
+    color: rgb(255, 255, 255);
+font-size: 34px;
+font-weight: 700;
+text-decoration: none;
+}
+
+.activeMenuItem{
+color:rgb(0, 78, 143);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.logoText{
+    font-size: 34px;
+    font-weight: 400;
+    color: white;
+}
+.logoText span{
+    color:rgb(0, 78, 143);
+}
+
+
+footer{
+    padding: 0 42px;
+    height: 80px;
+    border-radius: 40px 40px 0px 0px;
+    background: rgb(0, 194, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.title{
+    color: rgb(0, 78, 143);
+font-size: 60px;
+font-weight: 700;
+}
+
+.card{
+    width: 380px;
+    height: 570px;
+    border-radius: 40px;
+    background: linear-gradient(44.43deg, rgb(114, 198, 239) -1.375%,rgb(255, 255, 255) 100%);
+    box-sizing: border-box;
+    padding: 24px 35px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap:24px 20px;
+}
+
+.cardTitle{
+    text-align: center;
+    color: rgb(0, 78, 143);
+font-size: 36px;
+font-weight: 700;
+margin-bottom: 12px;
+}
+
+.cardImage{
+    width: 310px;
+    height: 200px;
+    margin-bottom: 16px;
+}
+
+.cardDesc{
+    color: rgb(0, 78, 143);
+font-size: 20px;
+font-weight: 400;
+line-height: 130%;
+flex: 1 1 auto;
+}
+
+.cardFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addToCart{
+    color: white;
+    border-radius: 40px;
+    background: linear-gradient(90.00deg, rgb(20, 136, 204),rgb(43, 50, 178) 100%);
+    font-size: 30px ;
+    padding: 25px 22px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.cardPrice{
+    color: rgb(0, 0, 0);
+font-size: 30px;
+font-weight: 700;
+}
+
+.cart{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+.cartItem{
+    display: flex;
+    gap:44px;
+    width: 980px;
+    height: 264px;
+    border-radius: 40px;
+    background: linear-gradient(44.43deg, rgb(114, 198, 239) -0.136%,rgb(255, 255, 255) 100%);
+    box-sizing: border-box;
+    padding: 32px;
+}
+
+.cartItemImage{
+    width: 310px;
+    height: 200px;
+}
+
+.cartItemInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cartItemTitle{
+    color: rgb(0, 78, 143);
+font-size: 48px;
+font-weight: 700;
+}
+
+.cartItemPrice{
+    color: rgb(0, 0, 0);
+
+font-size: 50px;
+font-weight: 700;
+}
+.cartConteiner{
+width: 980px;
+}
+
+.summary{
+text-align: end;
+color: rgb(0, 78, 143);
+margin-bottom: 32px;
+font-size: 60px;
+font-weight: 700;
+}
+
+.orderForm{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap:32px;
+}
+
+.orderForm label{
+    color: rgb(0, 78, 143);
+margin-right: 20px;
+font-size: 48px;
+font-weight: 400;
+}
+
+.orderForm input{
+    box-sizing: border-box;
+border: 2px solid rgb(0, 0, 0);
+border-radius: 40px;
+width: 450px;
+height: 100px;
+background: rgb(255, 255, 255);
+padding: 0 12px;
+font-size:48px;
+font-weight: 400;
+}
+
+.orderButton{
+    border-radius: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 400;
+    background: linear-gradient(90.00deg, rgb(20, 136, 204),rgb(43, 50, 178) 100%);
+padding: 26px 52px;
+}
+
+
+.emptyCart{
+    display: flex;
+    gap: 42px;
+}
+
+.emptyCartImage{
+    width:368px;
+    height: 300px;
+}
+
+
+.emptyCartText{
+    background: linear-gradient(90.00deg, rgb(114, 198, 239),rgb(0, 78, 143));
+    -webkit-background-clip:
+    text;
+    -webkit-text-fill-color:
+    transparent;
+    background-clip:
+    text;
+    text-fill-color:
+    transparent;
+    font-family: Open Sans;
+    font-size: 60px;
+    font-weight: 400;
+    width: 570px;
+    height: 150px;
+    text-align: center;
+}
